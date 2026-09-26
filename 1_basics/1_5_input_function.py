@@ -1,0 +1,11 @@
+a = int(input())
+b = int(input())
+c = int(input())
+comb_1 = a + b * c
+comb_2 = a * b + c
+comb_3 = (a + b) * c
+comb_4 = a * (b + c)
+comb_5 = a + b + c
+comb_6 = a * b * c
+print( max( comb_1, comb_2, comb_3, comb_4, comb_5, comb_6,))
+
