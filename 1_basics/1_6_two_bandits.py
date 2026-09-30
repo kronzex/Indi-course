@@ -20,3 +20,13 @@
     Сколько банок не успел прострелить Ларри.
 
 '''
+# --- Решение ---
+
+a, b = map(int, input().split())
+garry = b - 1 # didn't shoot garry
+larry = a - 1 # didn't shoot larry
+print( garry, larry)
+
+
+
+
